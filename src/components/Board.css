@@ -1,0 +1,42 @@
+.Sudoku-board {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: beige;
+    border: solid 6px beige;
+    outline: 3px solid brown;
+}
+
+td {
+    padding: 0;
+}
+
+.cell input {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    outline: solid 2px brown;
+    border: none;
+    outline-offset: -1px;
+}
+
+.cell input:focus,
+.cell input:hover {
+    background-color: beige;
+}
+
+.cell input:disabled {
+    background-color: bisque;
+    font-weight: bolder;
+    color: black;
+}
+
+.rowSpace {
+    margin-bottom: 6px;
+}
+
+.colSpace {
+    margin-right: 6px;
+}
