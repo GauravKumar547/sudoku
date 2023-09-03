@@ -1,8 +1,8 @@
 {
     "hosting": {
         "public": "build",
-        "site": "sudoku-by-gaurav",
         "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "site": "sudoku-by-gaurav",
         "rewrites": [
             {
                 "source": "**",
